@@ -1,0 +1,24 @@
+.image-display {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+}
+
+#large-view{
+    display: block;
+    margin: 20px auto;
+    width: 600px;
+    height: 450px;
+    object-fit: contain;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+.thumbnail {
+    width: 200px; 
+    height: 150px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px; 
+    object-fit: cover; 
+}
